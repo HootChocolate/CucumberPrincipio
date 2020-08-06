@@ -1,0 +1,23 @@
+2020-08-06 17:21:01,502 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-06 17:26:52,813 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-06 17:27:52,573 [Worker-0: Creating project "CursoCucumber"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.willian:CursoCucumber:0.0.1-SNAPSHOT @ /home/jay/treinamento/cucumber/CursoCucumber/pom.xml.
+2020-08-06 17:27:53,165 [Worker-0: Creating project "CursoCucumber"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CursoCucumber/src/main/java
+2020-08-06 17:27:53,167 [Worker-0: Creating project "CursoCucumber"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CursoCucumber/src/main/resources
+2020-08-06 17:27:53,168 [Worker-0: Creating project "CursoCucumber"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CursoCucumber/src/test/java
+2020-08-06 17:27:53,168 [Worker-0: Creating project "CursoCucumber"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CursoCucumber/src/test/resources
+2020-08-06 17:27:54,470 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:27:54,477 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:27:54,481 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:27:54,483 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:27:59,264 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:27:59,265 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:27:59,268 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:27:59,268 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:28:07,407 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:28:07,408 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:28:07,410 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:28:07,411 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:28:19,893 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:28:19,895 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-06 17:28:19,897 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-06 17:28:19,898 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
