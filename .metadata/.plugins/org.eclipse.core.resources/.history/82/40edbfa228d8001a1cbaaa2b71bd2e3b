@@ -1,0 +1,4 @@
+Feature: Aprender Cucumber 
+	Como um estudante
+	Eu quero aprender Cucumber
+	Para poder automatizar a especificação de requisitos de clientes;

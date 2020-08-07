@@ -1,0 +1,9 @@
+Feature: Aprender Cucumber 
+	Como um estudante
+	Eu quero aprender Cucumber
+	Para poder automatizar a especificação de requisitos de clientes
+
+Scenario: Validar especificacao do cliente 
+	Dado que criei o arquivo corretamente
+	Quando executa-lo
+	Então a especificação deve finalizar com sucesso

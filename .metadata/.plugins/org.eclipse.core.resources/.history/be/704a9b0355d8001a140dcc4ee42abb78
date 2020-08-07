@@ -1,0 +1,33 @@
+package initial;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class CucumberInicial {
+
+	@Given("que o usuario esta logado")
+	public void que_o_usuario_esta_logado() {
+		System.out.println("O usuario está logado");
+	}
+
+	@Given("que a conta ainda nao existe")
+	public void que_a_conta_ainda_nao_existe() {
+		System.out.println("A conta ainda não existe");
+	}
+
+	@When("for adicionado a conta no servidor")
+	public void for_adicionado_a_conta_no_servidor() {
+		System.out.println("foi adicionado a conta no servidor");
+	}
+
+	@Then("deve ser validado a mensagem de feedback")
+	public void deve_ser_validado_a_mensagem_de_feedback() {
+		System.out.println("Foi validado a mensagem de feedback");
+	}
+
+	@Then("deve ser verificado se a conta foi inserida")
+	public void deve_ser_verificado_se_a_conta_foi_inserida() {
+		System.out.println("Foi inserida a conta no seu barriga");
+	}
+}

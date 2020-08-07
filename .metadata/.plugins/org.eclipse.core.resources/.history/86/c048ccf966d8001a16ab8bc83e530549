@@ -1,0 +1,47 @@
+//package initial;
+//
+//import io.cucumber.java.pt.Dado;
+//import io.cucumber.java.pt.Então;
+//import io.cucumber.java.pt.Quando;
+//
+//public class CucumberInicial {
+//	
+//	@Dado("que o usuário esta logado")
+//	public void queOUsuárioEstaLogado() {
+//		System.out.println("O USUARIO ESTÁ LOGADO");
+//		
+////	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@Dado("que a conta ainda não existe")
+//	public void queAContaAindaNãoExiste() {
+//		System.out.println("A CONTA AINDA NAO EXISTE");
+//		
+////	    throw new io.cucumber.java.PendingException();
+//	}
+//	@Quando("for adicionado a conta no servidor")
+//	public void forAdicionadoAContaNoServidor() {
+//		System.out.println("A CONTA FOI ADICIONADA NO SERVIDOR");
+//
+////	    throw new io.cucumber.java.PendingException();
+//	}
+//	@Então("deve ser validado a mensagem de feedback")
+//	public void deveSerValidadoAMensagemDeFeedback() {
+//		System.out.println("VALIDADO A MENSAGEM");
+//
+////	    throw new io.cucumber.java.PendingException();
+//	}
+//	@Então("deve validar que a conta existe")
+//	public void deveValidarQueAContaExiste() {
+//		System.out.println("A CONTA AINDA NAO EXISTE");
+//
+////	    throw new io.cucumber.java.PendingException();
+//	}
+//	
+//	@Então("um novo passo")
+//	public void umNovoPasso() {
+//		System.out.println("NOVO PASSO");
+//		
+////	    throw new io.cucumber.java.PendingException();
+//	}
+//}

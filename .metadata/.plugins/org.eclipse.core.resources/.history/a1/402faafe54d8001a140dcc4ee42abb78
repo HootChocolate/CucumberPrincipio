@@ -1,0 +1,12 @@
+Feature: Aprender Cucumber 
+	Como um estudante
+	Eu quero aprender Cucumber
+	Para poder automatizar a especificação de requisitos de clientes
+
+Scenario: Adicionar conta no seu barriga
+	Given que o usuario esta logado
+	Given que a conta ainda nao existe
+	When for adicionado a conta no servidor
+	Then deve ser validado a mensagem de feedback
+	Then deve validar que a conta existe
+	

@@ -1,0 +1,38 @@
+package initial;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class CucumberInicial {
+
+	@Given("que o usuario esta logado")
+	public void que_o_usuario_esta_logado() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("que a conta ainda nao existe")
+	public void que_a_conta_ainda_nao_existe() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("for adicionado a conta no servidor")
+	public void for_adicionado_a_conta_no_servidor() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("deve ser validado a mensagem de feedback")
+	public void deve_ser_validado_a_mensagem_de_feedback() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("deve ser verificado se a conta foi inserida")
+	public void deve_ser_verificado_se_a_conta_foi_inserida() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}

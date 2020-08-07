@@ -1,0 +1,21 @@
+package initial;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.CucumberOptions.SnippetType;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		snippets = SnippetType.CAMELCASE
+		)
+public class Runner {
+
+	@Test
+	public void setUp() {
+		System.out.println("Before");
+	}
+	
+}

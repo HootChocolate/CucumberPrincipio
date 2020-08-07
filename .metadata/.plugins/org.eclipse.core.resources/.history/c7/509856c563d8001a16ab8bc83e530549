@@ -1,0 +1,52 @@
+package initial;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CucumberInicial {
+	
+	@Dado("que o usuário esta logado")
+	public void queOUsuárioEstaLogado() {
+		System.out.println("O USUARIO ESTÁ LOGADO");
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Dado("que a conta ainda não existe")
+	public void queAContaAindaNãoExiste() {
+		System.out.println("A CONTA AINDA NAO EXISTE");
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Quando("for adicionado a conta no servidor")
+	public void forAdicionadoAContaNoServidor() {
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("deve ser validado a mensagem de feedback")
+	public void deveSerValidadoAMensagemDeFeedback() {
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("deve validar que a conta existe")
+	public void deveValidarQueAContaExiste() {
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+
+	@Quando("for adicionado a conta no servidor")
+	public void for_adicionado_a_conta_no_servidor() {
+		System.out.println("A CONTA FOI ADICIONADA NO SERVIDOR");
+//		throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("deve ser validado a mensagem de feedback")
+	public void deve_ser_validado_a_mensagem_de_feedback() {
+		System.out.println("VALIDADO A MENSAGEM");
+//		throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("deve validar que a conta existe")
+	public void deve_validar_que_a_conta_existe() {
+		System.out.println("A CONTA AINDA NAO EXISTE");
+//		throw new io.cucumber.java.PendingException();
+	}
+
+}

@@ -1,0 +1,18 @@
+# language: pt
+Funcionalidade: Aprendendo Cucumber 
+	Como um estudante
+	Eu quero aprender Cucumber
+	Para poder automatizar a especificação de requisitos de clientes
+
+Cenário: Adicionar conta no seu barriga
+	Dado que o usuário esta logado
+	Dado que a conta ainda não existe
+	Quando for adicionado a conta no servidor
+	Então deve ser validado a mensagem de feedback
+	Então deve validar que a conta existe
+	Então um novo passo
+
+Cenário: Deve validar incrementação de um contador
+	Dado que o valor do meu contador é 10
+	Quando eu adicionar ao contador mais 5
+	Então o valor do contador deve ser 14
