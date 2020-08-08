@@ -1,0 +1,9 @@
+Feature: funcionalidade
+	Como
+	Eu quero
+	Para
+
+Scenario: cenario
+	Given algo
+	When algo
+	Then algo

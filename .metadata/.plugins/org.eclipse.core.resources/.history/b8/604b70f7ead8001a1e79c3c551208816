@@ -1,0 +1,56 @@
+package VerificarPrazoEntregaBebeConforto;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CalcularPrazosFeature {
+	
+	@Dado("que o usuário esteja logado")
+	public void queOUsuárioEstejaLogado() {
+	    
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	private Date dataEntrega = new Date();
+	
+	@Dado("^que a data de entrega seja dia (\\d{2})\\/(\\d{2})\\/(\\d{4})$")
+	public void queADataDeEntregaSejaDia(Integer dia, Integer mes, Integer ano) {
+				
+		Calendar calendar = Calendar.getInstance();
+		calendar.set(Calendar.DAY_OF_MONTH, dia);
+		calendar.set(Calendar.MONTH, mes);
+		calendar.set(Calendar.YEAR, ano);
+		
+		dataEntrega = calendar.getTime();
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Quando("^a entrega atrasar (\\d+) (dia|dias|mes|meses)$") 
+	public void aEntregaAtrasarDias(Integer valor, String tempo) throws ParseException {		
+		System.out.println("Data original: " + dataEntrega);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		Calendar c = Calendar.getInstance();
+		
+		c.setTime(sdf.parse(dataEntrega);
+		c.add(Calendar.DATE, 1);  // number of days to add
+		dt = sdf.format(c.getTime());
+		System.out.println(dt);
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Então("^a data da entrega deve ser dia (\\d+)\\/(\\d+)\\/(\\d+)$")
+	public void aDataDaEntregaDeveSerDia(Integer int1, Integer int2, Integer int3) {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+}

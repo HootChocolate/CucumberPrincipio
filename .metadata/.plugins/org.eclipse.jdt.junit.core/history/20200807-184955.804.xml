@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerCalcularPrazos" project="CursoCucumber" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="VerificarPrazoEntregaBebeConforto.RunnerCalcularPrazos" time="0.173">
+    <testsuite name="Prazo de entregas" time="0.173">
+      <testcase name="Validar prazo de entrega" classname="Prazo de entregas" time="0.161"/>
+      <testcase name="Validar prazo de entregas" classname="Prazo de entregas" time="0.012"/>
+    </testsuite>
+  </testsuite>
+</testrun>

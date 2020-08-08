@@ -1,0 +1,57 @@
+package bebe;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CadastrarUsuarioFeature {
+
+	@Dado("um usuário ainda não cadastrado")
+	public void um_usuário_ainda_não_cadastrado() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("o usuário iniciar o processo de cadastramento")
+	public void o_usuário_iniciar_o_processo_de_cadastramento() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("o processo de cadastro do usuário é realizado com sucesso")
+	public void o_processo_de_cadastro_do_usuário_é_realizado_com_sucesso() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Dado("que o usuario está logado")
+	public void que_o_usuario_está_logado() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Dado("que a mercadoria não está cadastrada")
+	public void que_a_mercadoria_não_está_cadastrada() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("o usuário cadastrar uma mercadoria")
+	public void o_usuário_cadastrar_uma_mercadoria() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("a mercadoria deve estar disponível")
+	public void a_mercadoria_deve_estar_disponível() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("o estoque deve estar atualizado")
+	public void o_estoque_deve_estar_atualizado() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+}

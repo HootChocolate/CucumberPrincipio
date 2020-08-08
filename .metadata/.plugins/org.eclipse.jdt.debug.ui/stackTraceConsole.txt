@@ -1,21 +1,7 @@
-io.cucumber.junit.UndefinedStepException: The step "que o valor do meu contador é 10" is undefined. You can implement it using the snippet(s) below:
+io.cucumber.junit.UndefinedStepException: The step "que a data de entrega seja dia 20/10/2020" is undefined. You can implement it using the snippet(s) below:
 
-@Dado("que o valor do meu contador é {int}")
-public void queOValorDoMeuContadorÉ(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-
-Some other steps were also undefined:
-
-@Quando("eu adicionar ao contador mais {int}")
-public void euAdicionarAoContadorMais(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Então("o valor do contador deve ser {int}")
-public void oValorDoContadorDeveSer(Integer int1) {
+@Dado("que a data de entrega seja dia {int}\\/{int}\\/{int}")
+public void queADataDeEntregaSejaDia(Integer int1, Integer int2, Integer int3) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }

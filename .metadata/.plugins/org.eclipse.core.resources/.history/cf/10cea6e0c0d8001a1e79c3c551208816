@@ -1,0 +1,6 @@
+# language: pt
+Funcionalidade: Prazo de entregas
+	Como um usuário com uma entrega pendente
+	Eu quero verificar o prazo de entrega da minha mercadoria
+	Para eu saber o tempo que ainda falta para a mercadoria chegar
+ 

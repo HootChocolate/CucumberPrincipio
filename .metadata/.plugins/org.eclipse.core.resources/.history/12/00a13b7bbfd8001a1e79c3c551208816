@@ -1,0 +1,55 @@
+package bebe;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CadastrarUsuarioFeature {
+
+	@Dado("um usuário ainda não cadastrado")
+	public void umUsuárioAindaNãoCadastrado() {
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("o usuário iniciar o processo de cadastramento")
+	public void oUsuárioIniciarOProcessoDeCadastramento() {
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("o processo de cadastro do usuário é realizado com sucesso")
+	public void oProcessoDeCadastroDoUsuárioÉRealizadoComSucesso() {
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+	
+/* ========================================================================== */
+	
+	@Dado("que o usuario está logado")
+	public void queOUsuarioEstáLogado() {
+	    
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Dado("que a mercadoria não está cadastrada")
+	public void queAMercadoriaNãoEstáCadastrada() {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Quando("o usuário cadastrar uma mercadoria")
+	public void oUsuárioCadastrarUmaMercadoria() {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("a mercadoria deve estar disponível")
+	public void aMercadoriaDeveEstarDisponível() {
+
+//		throw new io.cucumber.java.PendingException();
+	}
+	@Então("o estoque deve estar atualizado")
+	public void oEstoqueDeveEstarAtualizado() {
+
+//		throw new io.cucumber.java.PendingException();
+	}
+}

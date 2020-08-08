@@ -1,0 +1,25 @@
+package bebe;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CadastrarUsuarioFeature {
+
+	@Dado("um usuário ainda não cadastrado")
+	public void umUsuárioAindaNãoCadastrado() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("o usuário iniciar o processo de cadastramento")
+	public void oUsuárioIniciarOProcessoDeCadastramento() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("o processo de cadastro do usuário é realizado com sucesso")
+	public void oProcessoDeCadastroDoUsuárioÉRealizadoComSucesso() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+}

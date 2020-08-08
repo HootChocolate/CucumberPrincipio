@@ -1,0 +1,65 @@
+package VerificarPrazoEntregaBebeConforto;
+
+import java.util.Calendar;
+import java.util.Date;
+
+import com.sun.tools.javac.util.StringUtils;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CalcularPrazosFeature{
+	
+	@Dado("que o usuário esteja logado")
+	public void queOUsuárioEstejaLogado() {
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	private Date dataEntrega = new Date();
+	
+	@Dado("^que a data de entrega seja dia (\\d{2})\\/(\\d{2})\\/(\\d{4})$")
+	public void queADataDeEntregaSejaDia(Integer dia, Integer mes, Integer ano) {
+				
+		Calendar calendar = Calendar.getInstance();
+		calendar.set(Calendar.DAY_OF_MONTH, dia);
+		calendar.set(Calendar.MONTH, mes);
+		calendar.set(Calendar.YEAR, ano);
+
+		dataEntrega = calendar.getTime();
+	}
+	
+	@Quando("^a entrega atrasar (\\d+) (dia|dias|mes|meses)$") 
+	public void aEntregaAtrasar(int valor, String tempo) throws Exception {
+				
+		if(tempo.equals("dia") || tempo.equals("dias")) {
+			Calendar cal = Calendar.getInstance();
+	        cal.setTime(dataEntrega);
+	        cal.add(Calendar.DAY_OF_MONTH, valor); 
+	        dataEntrega = cal.getTime();
+		
+		}
+		if(tempo.equals("mes") || tempo.equals("mês") || tempo.equals("meses")) {
+			Calendar cal = Calendar.getInstance();
+	        cal.setTime(dataEntrega);
+	        cal.add(Calendar.MONTH, valor - 1);
+	        dataEntrega = cal.getTime();
+		}
+	}
+	
+	@Então("^a data da entrega deve ser dia (\\d{2})\\/(\\d{2})\\/(\\d{4})$")
+	public void aDataDaEntregaDeveSerDia(Integer dia, Integer mes, Integer ano) {
+		Calendar c = Calendar.getInstance();
+		c.add(Calendar.DAY_OF_MONTH, dia);
+		c.add(Calendar.MONTH, mes);
+		c.add(Calendar.YEAR, ano);
+		
+		Date esperada = c.getTime();
+		
+		
+		
+		System.out.println("dataEntrega: " + format.format(dataEntrega));
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+}

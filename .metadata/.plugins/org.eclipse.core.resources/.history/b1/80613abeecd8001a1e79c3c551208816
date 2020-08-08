@@ -1,0 +1,11 @@
+# language: pt
+Funcionalidade: Prazo de entregas
+	Como um usuário com uma entrega pendente
+	Eu quero verificar o prazo de entrega da minha mercadoria
+	Para eu saber o tempo que ainda falta para a mercadoria chegar
+
+Cenário: Validar prazo de entrega
+	Dado que o usuário esteja logado
+	Dado que a data de entrega seja dia 20/10/2020
+	Quando a entrega atrasar 2 meses
+	Então a data da entrega deve ser dia 22/10/2020

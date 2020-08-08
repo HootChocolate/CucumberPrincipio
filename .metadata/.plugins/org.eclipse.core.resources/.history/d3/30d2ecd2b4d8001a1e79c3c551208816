@@ -1,0 +1,54 @@
+package bebe;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class CadastrarUsuarioFeature {
+
+	@Dado("um usuário ainda não cadastrado")
+	public void umUsuárioAindaNãoCadastrado() {
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("o usuário iniciar o processo de cadastramento")
+	public void oUsuárioIniciarOProcessoDeCadastramento() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("o processo de cadastro do usuário é realizado com sucesso")
+	public void oProcessoDeCadastroDoUsuárioÉRealizadoComSucesso() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+	
+/* ========================================================================== */
+	
+	@Dado("que o usuario está logado")
+	public void queOUsuarioEstáLogado() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Dado("que a mercadoria não está cadastrada")
+	public void queAMercadoriaNãoEstáCadastrada() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Quando("o usuário cadastrar uma mercadoria")
+	public void oUsuárioCadastrarUmaMercadoria() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("a mercadoria deve estar disponível")
+	public void aMercadoriaDeveEstarDisponível() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("o estoque deve estar atualizado")
+	public void oEstoqueDeveEstarAtualizado() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}
