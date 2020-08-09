@@ -1,0 +1,13 @@
+package VerificarPrazoEntregaBebeConforto;
+
+import java.util.Date;
+
+import javax.xml.transform.Transformer;
+
+public abstract class TransformarData extends Transformer<Date> {
+
+	@Override
+	public Date transform(String data) {
+		return new Date();
+	}
+}

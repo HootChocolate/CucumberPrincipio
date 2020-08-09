@@ -1,7 +1,26 @@
-io.cucumber.junit.UndefinedStepException: The step "que a data de entrega seja dia 20/10/2020" is undefined. You can implement it using the snippet(s) below:
+io.cucumber.junit.UndefinedStepException: The step "que o usuário esteja logado" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("que o usuário esteja logado")
+public void queOUsuárioEstejaLogado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
 
 @Dado("que a data de entrega seja dia {int}\\/{int}\\/{int}")
 public void queADataDeEntregaSejaDia(Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("a entrega atrasar {int} dia")
+public void aEntregaAtrasarDia(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Então("a data da entrega deve ser dia {int}\\/{int}\\/{int}")
+public void aDataDaEntregaDeveSerDia(Integer int1, Integer int2, Integer int3) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }

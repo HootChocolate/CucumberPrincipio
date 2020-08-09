@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerCadastrarUsuario" project="CursoCucumber" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runners.RunnerCadastrarUsuario" time="0.018">
+    <testcase name="initializationError" classname="runners.RunnerCadastrarUsuario" time="0.018">
+      <error>java.lang.IllegalArgumentException: Invalid tag expression at 'runners.RunnerCadastrarUsuario'
+	at io.cucumber.core.options.CucumberOptionsAnnotationParser.addTags(CucumberOptionsAnnotationParser.java:78)
+	at io.cucumber.core.options.CucumberOptionsAnnotationParser.parse(CucumberOptionsAnnotationParser.java:40)
+	at io.cucumber.junit.Cucumber.&lt;init&gt;(Cucumber.java:122)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:90)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:76)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:49)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:526)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: io.cucumber.tagexpressions.TagExpressionException: Tag expression 'not @ignore and (@slow, @fast)' could not be parsed because of syntax error: expected operator
+	at io.cucumber.tagexpressions.TagExpressionParser.check(TagExpressionParser.java:136)
+	at io.cucumber.tagexpressions.TagExpressionParser.parse(TagExpressionParser.java:74)
+	at io.cucumber.tagexpressions.TagExpressionParser.parse(TagExpressionParser.java:27)
+	at io.cucumber.core.options.CucumberOptionsAnnotationParser.addTags(CucumberOptionsAnnotationParser.java:76)
+	... 20 more
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

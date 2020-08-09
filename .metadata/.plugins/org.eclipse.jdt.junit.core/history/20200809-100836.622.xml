@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerCadastrarUsuario" project="CursoCucumber" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.RunnerCadastrarUsuario" time="0.184">
+    <testsuite name="Cadastrar de usuário" time="0.184">
+      <testcase name="Cadastrar usuário #1" classname="Cadastrar de usuário" time="0.171"/>
+      <testcase name="Cadastrar mercadoria" classname="Cadastrar de usuário" time="0.013"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,10 @@
+# language: pt
+Funcionalidade: Funcionalidades diferentes
+
+Cenário: Criar steps genéricos para estes passos
+    Dado que o ticket é AF345
+    Dado que o valor da passagem é Rs 230
+    Dado que o nome do passageiro é "Fulano da Silva"
+    Dado que o telefone do passageiro é 9999-9999
+    Quando criar os steps
+    Então o teste vai funcionar

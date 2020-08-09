@@ -1,0 +1,43 @@
+package passagensAereas;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class passagemAereaTicketTest {
+
+	@Dado("^que o ticket é A.(\\d+)$")
+	public void queOTicketÉAF345(String tiket) {
+	    System.out.println("Número do Ticket: " + tiket);
+	    
+//	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Dado("^que o valor da passagem é R\\$ (\\d+),(\\d+)$")
+	public void queOValorDaPassagemÉR$(int valor, int cents) {
+		System.out.println("Valor da passagem: " + valor + "," + cents);
+	    
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Dado("^que o nome do passageiro é ([^0-9])$")
+	public void queONomeDoPassageiroÉ(String nome) {
+		System.out.println("nome do passageiro: " + nome);
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Dado("que o telefone do passageiro é {int}-{int}")
+	public void queOTelefoneDoPassageiroÉ(Integer int1, Integer int2) {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Quando("criar os steps")
+	public void criarOsSteps() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+	@Então("o teste vai funcionar")
+	public void oTesteVaiFuncionar() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+	}
+}

@@ -1,0 +1,18 @@
+# language: pt
+
+# Aqui serão descritos as funcionalidades e os comportamentos que eu li durante 
+# a leitura do artigo sobre "Sincronização ERP e E-commerce" no site da Maker
+
+Funcionalidade:
+	Como um usuário no site da Maker
+	Eu estou fazendo uns testes utilizando o artigo
+	Para fins didáticos
+
+# Dicas sobre o preenchimento do cenário:
+# Como Dado, adicione algumas condições que são necessárias para a construção do cenário
+Cenário: Cadastrar o produto
+	Dado que eu sou um usuário logado
+	Dado que o código do produto corresponda ao padrão "AAA.123.AAA.123"
+	Dado que eu ainda não tenha o produto já cadastrado
+	Quando o usuario informar os dados corretos do produto
+	Então o cadastro deve ser completo com sucesso
