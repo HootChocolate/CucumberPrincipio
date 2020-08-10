@@ -11,10 +11,10 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		features = "src/test/resources/features/cadastrar_usuario.feature",
 		glue = "steps",
 		plugin = "pretty",
-		tags = "not @ignore and (@slow)",
+		tags = "not @ignore and @slow",
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE
 		)
-public class RunnerCadastrarUsuario {
+public class CadastrarUsuarioRunner {
 
 }

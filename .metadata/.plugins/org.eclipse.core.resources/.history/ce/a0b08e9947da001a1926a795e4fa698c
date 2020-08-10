@@ -1,0 +1,48 @@
+package steps;
+
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+public class locadoraSteps {
+
+/* = = = = = = = = Deve alugar um filme com sucesso = = = = = = = = = = = = = = = =*/
+	
+	@Dado("um filme com estoque de {int} unidades")
+	public void um_filme_com_estoque_de_unidades(Integer int1) {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Dado("que o preço de aluguel seja R$ {double}")
+	public void que_o_preço_de_aluguel_seja_r$(Double double1) {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Quando("alugar")
+	public void alugar() {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("o preço do aluguel será R$ {double}")
+	public void o_preço_do_aluguel_será_r$(Double double1) {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("a data de entrega será no dia seguinte")
+	public void a_data_de_entrega_será_no_dia_seguinte() {
+
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Então("o estoque do filme será {int} unidade")
+	public void o_estoque_do_filme_será_unidade(Integer int1) {
+		
+//	    throw new io.cucumber.java.PendingException();
+	}
+
+/* = = = = = = = = - = = = = = = = = = = = = = = = =*/
+}

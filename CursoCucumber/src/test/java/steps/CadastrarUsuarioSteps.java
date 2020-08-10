@@ -9,7 +9,6 @@ public class CadastrarUsuarioSteps {
 
 	@Dado("um usuário ainda não cadastrado")
 	public void umUsuárioAindaNãoCadastrado() {
-		System.out.println(">>>> Iniciado cadastro de usuário");
 		
 //	    throw new io.cucumber.java.PendingException();
 	}

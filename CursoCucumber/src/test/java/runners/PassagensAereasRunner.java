@@ -14,6 +14,6 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE
 		)
-public class RunnerPassagensAereas {
+public class PassagensAereasRunner {
 
 }
